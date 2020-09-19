@@ -1,5 +1,16 @@
 import { createApp } from "vue";
 import App from "./App.vue";
 import router from "./router";
+import VueGtm, { VueGtmUseOptions } from "vue-gtm";
 
-createApp(App).use(router).mount("#app");
+const app = createApp(App);
+
+app.use(router);
+
+const vueGtmOptions: VueGtmUseOptions = {
+  id: "GTM-DEMO",
+};
+
+app.use(VueGtm, vueGtmOptions);
+
+app.mount("#app");
