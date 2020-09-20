@@ -16,13 +16,13 @@ export default defineComponent({
   },
   methods: {
     test() {
-      console.log("$route", this.$route);
-      console.log("$router", this.$router);
-      console.log("this", this);
-
-      // @ts-ignore
       console.log("$gtm", this.$gtm);
       // console.log("Vue.gtm", Vue.gtm);
+
+      console.log("this", this);
+
+      console.log("$route", this.$route);
+      console.log("$router", this.$router);
     },
   },
 });
