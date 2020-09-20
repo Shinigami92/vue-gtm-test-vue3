@@ -8691,10 +8691,10 @@ vue-eslint-parser@^7.0.0, vue-eslint-parser@^7.1.0:
     esquery "^1.0.1"
     lodash "^4.17.15"
 
-vue-gtm@3.0.0-alpha.2:
-  version "3.0.0-alpha.2"
-  resolved "https://registry.yarnpkg.com/vue-gtm/-/vue-gtm-3.0.0-alpha.2.tgz#e1babb3b6a2b60612579401e929fc6566215d94b"
-  integrity sha512-pSaxHkEtU7OU/Stla7AmEyqo/Spzl6h8Lbc5P/ysjkQuadP80SYDbtT2pMtQi+HobV5tolhecHtyJmrNm+g5QA==
+vue-gtm@3.0.0-alpha.3:
+  version "3.0.0-alpha.3"
+  resolved "https://registry.yarnpkg.com/vue-gtm/-/vue-gtm-3.0.0-alpha.3.tgz#75ee88a3e1a24f27f22e58e1cd5e6511f5ebf89c"
+  integrity sha512-jTS93GZIzPnMTrcwFlt7bJ2E4Lxm96S/XTRJcqpp9+e3ywGVPSzJrth8hvVdpGEGGEdZwo8UBwwdJ2lW3zteYw==
   dependencies:
     url-search-params-polyfill "^8.1.0"
 
